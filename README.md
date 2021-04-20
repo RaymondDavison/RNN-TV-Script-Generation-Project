@@ -20,12 +20,9 @@ The model generates conversations between the characters based on the first keyw
 
 ## Sample Output:
 
-`
-  jerry: articulate donald donald. i was in mortal danger, i had to tell him what happened to him.
-  
-  jerry: you know what?  </addr>
-
-george: no further questions. you were fighting fighting.
+> jerry: articulate donald donald. i was in mortal danger, i had to tell him what happened to him.
+> jerry: you know what? 
+> george: no further questions. you were fighting fighting.
 
 jerry: no, no, no.
 
