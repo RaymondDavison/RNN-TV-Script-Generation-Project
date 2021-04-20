@@ -24,6 +24,14 @@ This project focuses on creating a RNN in PyTorch that can learn to generate new
 
 The model generates conversations between the characters based on the first keyword provided. The script isn't perfect but can be a bit amusing. Common issues seen: duplicated words in a single line, mixing spoken lines with (stage directions), and excessive punctuation.
 
+## HyperParameters 
+- Sequence Length: 8
+- Training Epochs: 10
+- Learning Rate: 0.001
+- Embedding Dimension: 280
+- Hidden Dimension: 300
+- Number of Layers: 2
+
 ## Sample Output:
 
 > jerry: articulate donald donald. i was in mortal danger, i had to tell him what happened to him.
@@ -102,11 +110,5 @@ The model generates conversations between the characters based on the first keyw
 > 
 > jerry: i dont know. `
 
-## HyperParameters 
-- Sequence Length: 8
-- Training Epochs: 10
-- Learning Rate: 0.001
-- Embedding Dimension: 280
-- Hidden Dimension: 300
-- Number of Layers: 2
+
 
