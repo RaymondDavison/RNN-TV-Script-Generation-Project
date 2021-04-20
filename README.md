@@ -1,8 +1,13 @@
 # RNN-TV-Script-Generation-Project
 Using Recurrent Neural Network (RNN)  to generate new tv scripts as part of Udacity's Deep Learning Nanodegree program.
 
+## Libraries
+- numpy
+- collections
+- PyTorch
+
 ## Project Overview
-This project focuses on creating a RNN in PyTorch that can learn to generate new tv scripts - like Seinfeld scripts.
+This project focuses on creating a RNN in PyTorch that can learn to generate new tv scripts.
 
 ## Notebook Sections
 Load in Dataset
@@ -96,11 +101,11 @@ The model generates conversations between the characters based on the first keyw
 > 
 > jerry: i dont know. `
 
-HyperParameters Set
-Sequence Length: 8
-Training Epochs: 10
-Learning Rate: 0.001
-Embedding Dimension: 280
-Hidden Dimension: 300
-Number of Layers: 2
+## HyperParameters 
+- Sequence Length: 8
+- Training Epochs: 10
+- Learning Rate: 0.001
+- Embedding Dimension: 280
+- Hidden Dimension: 300
+- Number of Layers: 2
 
