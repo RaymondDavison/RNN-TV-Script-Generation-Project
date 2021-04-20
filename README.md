@@ -21,6 +21,7 @@ This project focuses on creating a RNN in PyTorch that can learn to generate new
 - Train RNN & Save Model
 - Generate New Scripts
 - Results
+- 
 The model generates conversations between the characters based on the first keyword provided. The script isn't perfect but can be a bit amusing. Common issues seen: duplicated words in a single line, mixing spoken lines with (stage directions), and excessive punctuation.
 
 ## Sample Output:
