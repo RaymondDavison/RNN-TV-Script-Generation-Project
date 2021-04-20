@@ -10,17 +10,17 @@ Using Recurrent Neural Network (RNN)  to generate new tv scripts as part of Udac
 This project focuses on creating a RNN in PyTorch that can learn to generate new tv scripts.
 
 ## Notebook Sections
-Load in Dataset
-Explore Dataset
-Preprocess Dataset: Lookup Tables, Tokenize Punctuation, Save Preprocessed data
-Batch Data & Create Dataloader
-Define Recurrent Neural Network (RNN) Architecture
-Define Forward & Backward Propagation
-Define Training Function
-Set Model Hyperparamters
-Train RNN & Save Model
-Generate New Scripts
-Results
+- Load in Dataset
+- Explore Dataset
+- Preprocess Dataset: Lookup Tables, Tokenize Punctuation, Save Preprocessed data
+- Batch Data & Create Dataloader
+- Define Recurrent Neural Network (RNN) Architecture
+- Define Forward & Backward Propagation
+- Define Training Function
+- Set Model Hyperparamters
+- Train RNN & Save Model
+- Generate New Scripts
+- Results
 The model generates conversations between the characters based on the first keyword provided. The script isn't perfect but can be a bit amusing. Common issues seen: duplicated words in a single line, mixing spoken lines with (stage directions), and excessive punctuation.
 
 ## Sample Output:
